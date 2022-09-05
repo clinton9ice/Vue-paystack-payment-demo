@@ -1,6 +1,6 @@
 
 # Vue PayStack Payment form
-Straight forward and good looking credit-card form built using vue-paystack pluigin
+Straight forward and good looking credit-card form built using vue-paystack plugin.
 
 <p align="center">
 <img src="https://github.com/clinton9ice/Vue-paystack-payment-demo/blob/385e7d43d978af7b45140785c9705d43d3924a86/src/assets/img/20220905_180240.gif?raw=true"/>
@@ -57,3 +57,5 @@ Code:
 
 
 ## Production App using Vue.js and Vue-paystack
+
+* To know more about this service check out [paystack](https://paystack.com/docs/guides/)
