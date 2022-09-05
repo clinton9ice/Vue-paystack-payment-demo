@@ -85,9 +85,10 @@ export default {
   },
   data() {
     return {
-      paystackkey: process.env.STACK_KEY, //paystack public key
+      paystackkey: process.env.VUE_APP_ENV_API_PUBLIC, //paystack public key
       email: "", // Customer email
       amount: 100000, // in kobo
+      name: ""
     };
   },
   computed: {
@@ -122,19 +123,8 @@ export default {
       return isEmail(arg);
     },
   },
-  created() {
-    console.log(process.env);
-  },
+
 };
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style></style>
